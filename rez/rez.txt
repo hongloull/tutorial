@@ -3,3 +3,7 @@ rez-env python -c "python"
 
 # get rez context file and then can source it to run commands
 rez-env python -c "rez-context -i > /tmp/a.txt"
+
+# install package
+rez-build -- -- install
+
